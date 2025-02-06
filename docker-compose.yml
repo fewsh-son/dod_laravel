@@ -19,6 +19,7 @@ services:
             IGNITION_LOCAL_SITES_PATH: '${PWD}'
         volumes:
             - '.:/var/www/html'
+            - '/Users/iceiceice/fewsh/practice/dod_package:/var/www/html/dod_package'
         networks:
             - sail
         depends_on:
