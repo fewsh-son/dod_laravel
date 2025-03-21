@@ -20,6 +20,7 @@ services:
         volumes:
             - '.:/var/www/html'
             - '/Users/iceiceice/fewsh/practice/dod_package:/var/www/html/dod_package'
+            - '/Users/iceiceice/fewsh/practice/anki-importer-package:/var/www/html/anki-importer-package'
         networks:
             - sail
         depends_on:
